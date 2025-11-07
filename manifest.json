@@ -1,0 +1,19 @@
+{
+  "name": "SabIdoso",
+  "short_name": "SabIdoso",
+  "description": "Ajuda idosos a usar o celular e aplicativos como WhatsApp.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#004466",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icones/icone.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
