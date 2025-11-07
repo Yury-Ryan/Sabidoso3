@@ -8,11 +8,10 @@
     <title>SabIdoso</title>
     <link
       rel="stylesheet"
-      href="file:///C:/Users/yuryr/AppData/Local/Microsoft/Windows/INetCache/IE/U19NI8X7/CSS/style.css"
-    />
-
-    <link rel="manifest" href="manifest.json" />
-    <meta name="theme-color" content="#004466" />
+<link rel="stylesheet" href="CSS/style.css">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" href="icones/icone.png">
+<meta name="theme-color" content="#004466" />
 
     <style>
       body {
@@ -359,14 +358,16 @@
         }, 300);
       }
 
-      if ("serviceWorker" in navigator) {
-        navigator.serviceWorker
-          .register("service-worker.js")
-          .then(() => console.log("Service Worker registrado!"))
-          .catch((err) =>
-            console.log("Falha ao registrar o Service Worker:", err)
-          );
-      }
+    if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function() {
+      navigator.serviceWorker
+        .register("service-worker.js")
+        .then(() => console.log("✅ Service Worker registrado!"))
+        .catch((err) =>
+          console.log("❌ Falha ao registrar o Service Worker:", err)
+        );
+    });
+  }
     </script>
   </body>
 </html>
