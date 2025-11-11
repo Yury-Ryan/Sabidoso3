@@ -31,7 +31,7 @@ body {
   margin-top: 20vh;
   color: #fffdfdc9;
   font-size: 5vw;
-  width: calc(210px+35vw);
+  width: calc(410px+0vw);
   background: linear-gradient(90deg, #0000006f, #00000000, #00000000);
   background-color: rgba(0, 0, 0, 0.501);
   background-size: 200%;
@@ -45,15 +45,18 @@ body {
   transition: 2s;
 }
 .container2 {
+  border-radius: 60px 60px 0 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
   gap: calc(70px + 1vw);
-  padding: 5vw; /* padding relativo à tela */
-  margin-top: 20vh; /* menor que antes */
-  border-radius: 10vw 10vw 0vw 0vw;
+  padding: 5vw;
+  height: 100%;
+  background-color: #000000b4;
+  padding-top: 15vw;
   backdrop-filter: blur(10px);
   justify-items: center;
-  border: solid rgba(255, 255, 255, 0.097) 1vw;
+  align-items: center;
+  margin-top: 200px;
 }
 #cell3 img {
   filter: brightness(2);
@@ -105,20 +108,22 @@ a {
 .cell-header img {
   max-width: 100%;
   max-height: 100%;
-  background-color: #ffffff6c;
+  background-color: #00000000;
   border-radius: 40px;
   padding-inline: 5vw;
+  margin-bottom: 3vw;
 }
 
 .logo {
-  background-color: #ffffff00;
+  background-color: rgba(255, 255, 255, 0.662);
+  border-radius: 100px;
   margin-left: 5vw;
 }
 
 .cell-header {
   width: 90%;
   height: 10vh;
-  background-color: #ffffff2d; /* Cor de fundo cinza claro */
+  background-color: #ffffff40; /* Cor de fundo cinza claro */
   position: fixed;
   z-index: 1000;
   display: flex;
