@@ -1,6 +1,6 @@
 body {
   display: flex;
-  justify-content: center;
+  justify-content: top;
   align-items: center;
   font-family: Arial, sans-serif;
   background-color: #1a1a1a;
@@ -8,7 +8,7 @@ body {
   min-height: 100vh;
   margin: 0;
   background-size: cover;
-  background-image: url(Imagens/61744e84-e8f0-4b55-a813-0d59d6cd78f8.png);
+  background-image: url(Imagens/image.png);
 
   background-repeat: no-repeat;
   background-attachment: fixed; /* imagem fixa */
