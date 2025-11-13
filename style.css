@@ -1,6 +1,5 @@
 body {
   display: flex;
-  justify-content: top;
   align-items: center;
   font-family: Arial, sans-serif;
   background-color: #1a1a1a;
@@ -160,3 +159,4 @@ a {
 #voltar:hover {
   background-color: #0099cc;
 }
+
