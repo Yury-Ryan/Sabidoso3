@@ -112,10 +112,8 @@ body {
 
 .cell {
   transition: 1s;
-  border-top: solid #ffffff 5px;
-  border-left: solid #ffffff 5px;
-  border-right: solid #6e6e6e 5px;
-  border-bottom: solid #6e6e6e 5px;
+  border: #000 solid;
+
   background: linear-gradient(
     135deg,
     rgba(153, 255, 137, 0),
@@ -358,10 +356,7 @@ body.dark header {
 body.dark .cell {
   background: linear-gradient(135deg, rgba(49, 49, 49, 0), rgb(5, 5, 5));
   background-color: #242424;
-  border-top: solid #323232 5px;
-  border-left: solid #323232 5px;
-  border-right: solid #000000 5px;
-  border-bottom: solid #000000 5px;
+  border: #000 solid;
 }
 
 body.dark .cell:hover {
