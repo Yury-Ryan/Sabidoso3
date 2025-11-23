@@ -110,6 +110,7 @@ body {
 }
 
 .cell {
+  transition: 0.3s;
   outline: #000 solid 4px;
   border-top: solid #ffffff 5px;
   border-left: solid #ffffff 5px;
@@ -356,16 +357,15 @@ body.dark header {
 
 body.dark .cell {
   background-color: #000000;
-  border-top: solid #323232 5px;
-  border-left: solid #323232 5px;
-  border-right: solid #000000 5px;
-  border-bottom: solid #000000 5px;
 }
 body.dark #uber img {
   filter: brightness(3);
 }
 body.dark .cell:hover {
   background-color: #444;
+}
+body.dark .cell:active {
+  background-color: #ffffff;
 }
 body.dark #telefones {
   background-color: #000;
