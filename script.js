@@ -8,12 +8,12 @@ if (localStorage.getItem("intro") === "ok") {
   document.getElementById("principal").style.display = "flex";
   document.querySelector(".container1").style.cssText = "opacity:1;";
   document.querySelector("#fundo").style.cssText =
-    "filter: blur(2px) grayscale(100%) brightness(0.8);";
+    "filter: grayscale(100%) brightness(0.8);";
 } else {
   // intro normal
   setTimeout(() => {
     document.querySelector(".subt").style.cssText =
-      "color: #0021a7ff; backdrop-filter: blur(20px); border-color: #04398355;     margin-top: 60px; border-radius: 20px;  ";
+      "color: #0021a7ff ; border-color: #04398355;     margin-top: 60px; border-radius: 20px;  ";
   }, 1000);
 }
 
@@ -43,8 +43,7 @@ function começar() {
 
   setTimeout(() => {
     document.querySelector(".container1").style.cssText = "opacity:1 ; ";
-    document.querySelector("#fundo").style.cssText =
-      "filter: blur(2px) grayscale(100%) brightness(0.8);";
+    document.querySelector("#fundo").style.cssText = "filter: grayscale(100%);";
   }, 3100);
 
   //==== SALVANDO QUE A INTRO FOI VISTA =====

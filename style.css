@@ -205,7 +205,6 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30%;
-  backdrop-filter: blur(5px);
   justify-items: center;
 }
 
