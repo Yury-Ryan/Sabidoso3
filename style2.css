@@ -11,6 +11,9 @@ body {
 }
 li img {
   width: 70%;
+  height: 80%;
+  border-radius: 5vw;
+  border: #00267e solid 5px;
 }
 .conteudo {
   width: 100%;
@@ -202,6 +205,8 @@ body.dark #tutorial {
   color: #fffcfc;
 }
 #tutorial {
+  display: flex;
+
   color: rgb(0, 0, 0);
   background-color: #cdffdb70;
   width: 70%;
@@ -209,7 +214,7 @@ body.dark #tutorial {
   height: 50vh auto;
   padding-top: 5vh;
   padding-bottom: 5vh;
-  padding-inline: 3vw;
+  padding-inline: 9vw;
   border-radius: 30px;
 }
 #tutorial button {
@@ -234,4 +239,6 @@ li {
 
 #tutorial li {
   font-size: 3vmax;
+  display: grid;
+  flex-direction: column;
 }

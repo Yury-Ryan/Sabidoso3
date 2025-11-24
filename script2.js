@@ -4,32 +4,31 @@ const tutorial = document.getElementById("tutorial");
 const tutoriais = {
   foto: `
       <h2>📷 Mandar foto no WhatsApp</h2>
-      <ol>
-        <li>Abrir conversa</li>
-        <li>Tocar no clipe</li>
-        <li>Escolher "Galeria"</li>
-        <li>Enviar</li>
-      </ol>
+      <ul>
+        <li>Abrir conversa <img src="ensino/whatsapp/passo.jpg"/ alt=""></li>
+        <li>Tocar no clipe <img src="ensino/whatsapp/passo2v3.jpg"/ alt=""></li>
+        <li>Escolher "Galeria" <img src="ensino/whatsapp/passo3v2.jpg"/ alt=""></li>
+        <li>Enviar <img src="ensino/whatsapp/passo4.jpg"/ alt=""></li>
+      </ul>
       <button onclick="voltar()">🔙 Voltar</button>
     `,
   videochamada: `
       <h2>🎥 Fazer chamada de vídeo</h2>
-      <ol>
-        <li>Abrir conversa   <img src="ensino/passo.jpg"/ alt="">
+      <ul>
+        <li>1. Abrir conversa<img src="ensino/whatsapp/passo.jpg"/ alt="">
 </li>
-
-        <li>Tocar na câmera <img src="ensino/passo2.jpg"/ alt=""></li>
-        <li>Aguardar a resposta <img src="ensino/passo3.png"/ alt=""></li>
-      </ol>
+        <li>2. Tocar na câmera <img src="ensino/whatsapp/passo2.jpg"/ alt=""></li>
+        <li>3. Aguardar a resposta <img src="ensino/whatsapp/passo3.png"/ alt=""></li>
+      </ul>
       <button onclick="voltar()">🔙 Voltar</button>
     `,
   voz: `
-      <h2>📞 Fazer ligação de voz</h2>
-      <ol>
-        <li>Abrir conversa</li>
-        <li>Clicar no telefone</li>
-        <li>Esperar a ligação</li>
-      </ol>
+      <h2> 📞 Fazer ligação de voz</h2>
+      <ul>
+        <li>Abrir conversa <img src="ensino/whatsapp/passo.jpg"/ alt=""></li>
+        <li>Clicar no telefone <img src="ensino/whatsapp/passo2v2.jpg"/ alt=""></li>
+        <li>Esperar a ligação  <img src="ensino/whatsapp/passo3.png"/ alt=""></li>
+      </ul>
       <button onclick="voltar()">🔙 Voltar</button>
     `,
 };

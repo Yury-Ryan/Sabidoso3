@@ -49,7 +49,6 @@ function começar() {
   //==== SALVANDO QUE A INTRO FOI VISTA =====
   localStorage.setItem("intro", "ok");
 }
-
 //========= OUTRAS FUNÇÕES ==========
 function mostrarTelefones() {
   setTimeout(() => {
@@ -58,7 +57,6 @@ function mostrarTelefones() {
     document.getElementById("SOS").style.display = "block";
   }, 300);
 }
-
 function voltar() {
   setTimeout(() => {
     document.getElementById("principal").style.display = "block";
@@ -67,7 +65,6 @@ function voltar() {
     document.getElementById("SOS").style.display = "none";
   }, 300);
 }
-
 //========= SERVICE WORKER ===========
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function () {
