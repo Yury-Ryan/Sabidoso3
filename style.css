@@ -312,7 +312,7 @@ body.dark #SOS h1 {
   height: 100%;
   background-size: cover;
   background-position: center;
-  transition: filter 1s;
+  transition: 1s;
 }
 
 /* Imagem clara */
@@ -324,6 +324,7 @@ body.dark #SOS h1 {
   height: 100%;
   background-size: cover;
   background-position: center;
+  transition: 1s;
 }
 
 /* Imagem padrão (modo claro) */
