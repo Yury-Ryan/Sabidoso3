@@ -263,6 +263,7 @@ header img {
   font-size: 2vmax;
   transition: 0.3s;
   text-decoration: none;
+  width: 25vw;
 }
 header {
   filter: contrast(1.3);
