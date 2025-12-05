@@ -5,7 +5,7 @@
   "start_url": "/Sabidoso/index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#ffffff00",
+  "background_color": "#NaN2f4d",
   "theme_color": "#006915",
   "orientation": "portrait",
   "icons": [
